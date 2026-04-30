@@ -264,4 +264,22 @@
     <string name="time">Čas</string>
     <string name="force_static">Statický</string>
     <string name="force_pull">Čeština</string>
+    <string name="level_intermediate">Střední</string>
+    <string name="level_expert">Odborné</string>
+    <string name="mechanic_isolation">Izolace</string>
+    <string name="equipment_body_only">Pouze tělo</string>
+    <string name="equipment_foam_roll">Pěnová role</string>
+    <string name="equipment_exercise_ball">Cvičení míč</string>
+    <string name="equipment_ez_curl_bar">EZ curl bar</string>
+    <string name="equipment_other">Ostatní</string>
+    <string name="muscle_lower_back">Dolní zadní</string>
+    <string name="muscle_middle_back">Střední zpět</string>
+    <string name="category_plyometrics">Plyometrické</string>
+    <string name="discard_changes_question">Změny diskardů?</string>
+    <string name="discard_changes_text">Přejete si skutečně opustit? Vaše změny nebudou uloženy</string>
+    <string name="others">Ostatní</string>
+    <string name="help">Nápověda</string>
+    <string name="name">Jméno</string>
+    <string name="edit">Editace</string>
+    <string name="do_not_show_again">Nesledovat znovu</string>
 </resources>
