@@ -155,4 +155,27 @@
     <string name="workout">entrenamiento</string>
     <string name="pause">Pausa</string>
     <string name="elapsed_time">Tiempo transcurrido</string>
+    <string name="quit_workout_question">¿Salir del entrenamiento?</string>
+    <string name="quit_workout_text">¿Estás seguro que quieres salir? Tu entrenamiento no será guardado</string>
+    <string name="new_workout">Nuevo entrenamiento</string>
+    <string name="appearance">Apariencia</string>
+    <string name="theme">Tema</string>
+    <string name="follow_system">Sistema</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="theme_light">Claro</string>
+    <string name="material_you">Material You</string>
+    <string name="dynamic_color_disabled">Colores dinámicos desactivados</string>
+    <string name="dynamic_color_enabled">Colores dinámicos activados</string>
+    <string name="keep_screen_on">Mantener pantalla encendida</string>
+    <string name="settings_general">General</string>
+    <string name="language">Idioma</string>
+    <string name="language_english">Inglés</string>
+    <string name="language_italian">Italiano</string>
+    <string name="language_german">Alemán</string>
+    <string name="language_dutch">Holandés</string>
+    <string name="language_czech">Checo</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_chinese_simplified">Chino simplificado</string>
+    <string name="stick_status_bar">Fijar barra de estado</string>
+    <string name="use_scroll_wheel_for_input">Utiliza la rueda de desplazamiento para introducir datos</string>
 </resources>
