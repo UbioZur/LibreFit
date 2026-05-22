@@ -45,12 +45,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Save routines even when empty [#53](https://github.com/LibreFitOrg/LibreFit/issues/53)
 - Make license clearer [#36](https://github.com/LibreFitOrg/LibreFit/pull/36)
 
-### Deprecated
--
-
-### Removed
--
-
 ### Fixed
 
 - Workout metrics did not update after the initial save. [#42](https://github.com/LibreFitOrg/LibreFit/issues/42)
