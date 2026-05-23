@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+-
+
+### Changed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Fixed
+-
+
+> [!TIP]
+> `LibreFit-unsigned.apk` should be used **only** for [verification](https://github.com/LibreFitOrg/LibreFit/blob/main/REPRODUCIBLE.md).
+> For normal use, download `LibreFit.apk`
+
+## [0.3.0] - 2026-05-23
+
 > [!IMPORTANT]
 > You now can **share** your **custom exercise** with LibreFit's community and get a *supporter code*! See
 > more [here](https://github.com/LibreFitOrg/LibreFit/blob/main/CONTRIBUTING.md#improving-exercises-dataset)
@@ -23,12 +44,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Save routines even when empty [#53](https://github.com/LibreFitOrg/LibreFit/issues/53)
 - Make license clearer [#36](https://github.com/LibreFitOrg/LibreFit/pull/36)
-
-### Deprecated
--
-
-### Removed
--
 
 ### Fixed
 
@@ -82,7 +97,9 @@ Thank you for your support!
 
 First public release. Bugs are expected! Report them so they can be fixed.
 
-[Unreleased]: https://github.com/LibreFitOrg/LibreFit/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/LibreFitOrg/LibreFit/compare/v0.3.0...HEAD
+
+[0.3.0]: https://github.com/LibreFitOrg/LibreFit/compare/v0.2.0...v0.3.0
 
 [0.2.0]: https://github.com/LibreFitOrg/LibreFit/compare/v0.1.5...v0.2.0
 
