@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.svg" alt="Logo" style="width: 60%">
+<img src="fastlane/metadata/android/en-US/images/featureGraphic.png" alt="LibreFit's graphic">
 
 # LibreFit - The free and private workout tracker
 
@@ -9,6 +9,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/LibreFitOrg/LibreFit?style=for-the-badge&logo=github&logoColor=white&labelColor=20232A&color=82D3E3)](https://github.com/LibreFitOrg/LibreFit/stargazers)
 [![GitHub Release](https://img.shields.io/github/v/release/LibreFitOrg/LibreFit?style=for-the-badge&labelColor=20232A&color=82D3E3)](https://github.com/LibreFitOrg/LibreFit/releases)
 [![Codeberg Mirror](https://img.shields.io/badge/Codeberg-Mirror-black?style=for-the-badge&logo=codeberg&labelColor=20232A&color=82D3E3)](https://codeberg.org/LibreFitOrg/LibreFit)
+[![Codeberg Stars](https://img.shields.io/gitea/stars/LibreFitOrg/LibreFit?gitea_url=https%3A%2F%2Fcodeberg.org%2F&style=for-the-badge&logo=codeberg&logoColor=white&labelColor=20232A&color=82D3E3)](https://codeberg.org/LibreFitOrg/LibreFit/stars)
 [![License](https://img.shields.io/github/license/LibreFitOrg/LibreFit?style=for-the-badge&labelColor=20232A&color=82D3E3)](https://github.com/LibreFitOrg/LibreFit/blob/main/COPYING)
 [![CI Status](https://img.shields.io/github/actions/workflow/status/LibreFitOrg/LibreFit/android-ci.yml?style=for-the-badge&labelColor=20232A&logo=github&logoColor=white)](https://github.com/LibreFitOrg/LibreFit/actions)
 
