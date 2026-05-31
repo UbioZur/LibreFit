@@ -90,6 +90,10 @@
     <string name="SilentCoderHere" translatable="false">SilentCoderHere</string>
     <string name="url_SilentCoderHere" translatable="false">https://github.com/SilentCoderHere</string>
     <string name="UnknownLi" translatable="false">UnknownLi</string>
+    <string name="xorodev" translatable="false">xorodev</string>
+    <string name="url_xorodev" translatable="false">https://github.com/xorodev</string>
+    <string name="johncorea580_crypto" translatable="false">johncorea580-crypto</string>
+    <string name="url_johncorea580_crypto" translatable="false">https://github.com/johncorea580-crypto</string>
 
 
     <!--Before saving screen-->

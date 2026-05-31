@@ -273,7 +273,6 @@ Thanks to everyone who helped the project!
 - josé m [#32](https://github.com/LibreFitOrg/LibreFit/pull/32)
 - [DoubleCheddarBurger](https://github.com/DoubleCheddarBurger) [#32](https://github.com/LibreFitOrg/LibreFit/pull/32)
 - [johncorea580-crypto](https://github.com/johncorea580-crypto) [#83](https://github.com/LibreFitOrg/LibreFit/pull/83)
-- [SelwynDO](https://github.com/SelwynDO) [#83](https://github.com/LibreFitOrg/LibreFit/pull/83)
 - [xorodev](https://github.com/xorodev) [#83](https://github.com/LibreFitOrg/LibreFit/pull/83)
 
 #### Ukrainian 🇺🇦
