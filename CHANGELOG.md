@@ -20,7 +20,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -
 
 ### Fixed
--
+
+- Initial state of input sheet [#88](https://github.com/LibreFitOrg/LibreFit/pull/88)
+- Visual bug where weight field doesn't show current value [#90](https://github.com/LibreFitOrg/LibreFit/issues/90)
 
 > [!TIP]
 > `LibreFit-unsigned.apk` should be used **only** for [verification](https://github.com/LibreFitOrg/LibreFit/blob/main/REPRODUCIBLE.md).
