@@ -423,4 +423,5 @@
     <string name="screen_on_desc">La pantalla permanece encendida durante la rutina</string>
     <string name="tut_create_routine_1">Presiona el botón + en la esquina inferior derecha para empezar a crear una nueva rutina.</string>
     <string name="rest_time_is_over">El tiempo de descanso ha terminado!</string>
+    <string name="resume">Reanudar</string>
 </resources>
