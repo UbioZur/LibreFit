@@ -238,10 +238,6 @@ Thanks to everyone who helped the project!
 
 - [miguelsoaresouza8-droid](https://github.com/miguelsoaresouza8-droid) [#32](https://github.com/LibreFitOrg/LibreFit/pull/32)
 
-#### Catalan 🇪🇸
-
-- [DoubleCheddarBurger](https://github.com/DoubleCheddarBurger) [#32](https://github.com/LibreFitOrg/LibreFit/pull/32)
-
 #### Czech 🇨🇿
 
 - Odweta
@@ -253,10 +249,6 @@ Thanks to everyone who helped the project!
 #### French 🇫🇷
 
 - [Spartang-117](https://github.com/Spartang-117) [#32](https://github.com/LibreFitOrg/LibreFit/pull/32)
-
-#### Galician 🇪🇸
-
-- josé m [#32](https://github.com/LibreFitOrg/LibreFit/pull/32)
 
 #### German 🇩🇪
 
@@ -277,7 +269,12 @@ Thanks to everyone who helped the project!
 #### Spanish 🇪🇸
 
 - [SelwynDO](https://github.com/SelwynDO) [#32](https://github.com/LibreFitOrg/LibreFit/pull/32)
-- [VA5H-One](https://github.com/VA5H-One)
+- [VA5H-One](https://github.com/VA5H-One) [#83](https://github.com/LibreFitOrg/LibreFit/pull/83)
+- josé m [#32](https://github.com/LibreFitOrg/LibreFit/pull/32)
+- [DoubleCheddarBurger](https://github.com/DoubleCheddarBurger) [#32](https://github.com/LibreFitOrg/LibreFit/pull/32)
+- [johncorea580-crypto](https://github.com/johncorea580-crypto) [#83](https://github.com/LibreFitOrg/LibreFit/pull/83)
+- [SelwynDO](https://github.com/SelwynDO) [#83](https://github.com/LibreFitOrg/LibreFit/pull/83)
+- [xorodev](https://github.com/xorodev) [#83](https://github.com/LibreFitOrg/LibreFit/pull/83)
 
 #### Ukrainian 🇺🇦
 
