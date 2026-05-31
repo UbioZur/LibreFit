@@ -421,4 +421,6 @@
     <string name="stick_status_bar_desc">La barra de estado del entrenamiento en curso permanecerá fija en la parte superior de la pantalla</string>
     <string name="past_year">Año pasado</string>
     <string name="screen_on_desc">La pantalla permanece encendida durante la rutina</string>
+    <string name="tut_create_routine_1">Presiona el botón + en la esquina inferior derecha para empezar a crear una nueva rutina.</string>
+    <string name="rest_time_is_over">El tiempo de descanso ha terminado!</string>
 </resources>
