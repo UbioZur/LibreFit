@@ -481,7 +481,7 @@ fun AboutScreen(navController: NavHostController) {
                 AboutItem(
                     icon = painterResource(R.drawable.ic_person),
                     text = stringResource(R.string.josé_m),
-                    description = stringResource(R.string.contributed_to) + " " + stringResource(R.string.language_galician),
+                    description = stringResource(R.string.contributed_to) + " " + stringResource(R.string.language_spanish),
                 )
             }
 
@@ -523,6 +523,28 @@ fun AboutScreen(navController: NavHostController) {
                     icon = painterResource(R.drawable.ic_person),
                     text = stringResource(R.string.UnknownLi),
                     description = stringResource(R.string.contributed_to) + " " + stringResource(R.string.language_ukrainian),
+                )
+            }
+
+            item {
+                AboutItem(
+                    icon = painterResource(R.drawable.ic_person),
+                    text = stringResource(R.string.xorodev),
+                    description = stringResource(R.string.contributed_to) + " " + stringResource(R.string.language_spanish),
+                    onClick = {
+                        url.value = resources.getString(R.string.url_xorodev)
+                    }
+                )
+            }
+
+            item {
+                AboutItem(
+                    icon = painterResource(R.drawable.ic_person),
+                    text = stringResource(R.string.johncorea580_crypto),
+                    description = stringResource(R.string.contributed_to) + " " + stringResource(R.string.language_spanish),
+                    onClick = {
+                        url.value = resources.getString(R.string.url_johncorea580_crypto)
+                    }
                 )
             }
         }

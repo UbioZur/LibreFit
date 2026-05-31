@@ -48,7 +48,7 @@ android {
         }
         androidResources {
             localeFilters += setOf(
-                "en", "it", "de", "nl", "es", "cs", "zh-rCN", "pt-rBR", "gl"
+                "en", "it", "de", "nl", "es", "cs", "zh-rCN", "pt-rBR"
             )
         }
 
