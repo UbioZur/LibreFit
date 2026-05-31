@@ -481,7 +481,7 @@ fun AboutScreen(navController: NavHostController) {
                 AboutItem(
                     icon = painterResource(R.drawable.ic_person),
                     text = stringResource(R.string.josé_m),
-                    description = stringResource(R.string.contributed_to) + " " + stringResource(R.string.language_galician),
+                    description = stringResource(R.string.contributed_to) + " " + stringResource(R.string.language_spanish),
                 )
             }
 
