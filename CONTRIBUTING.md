@@ -208,6 +208,43 @@ We want LibreFit to be accessible to everyone!
 
 > Thanks to [Weblate](https://weblate.org) for hosting LibreFit's translations!
 
+#### 🗺️ Supported Languages for Translation
+
+You can contribute if your target language is on this list:
+
+| Language             |
+|----------------------|
+| 🇸🇦 Arabic          |
+| 🇧🇩 Bengali         |
+| 🇨🇳 Chinese         |
+| 🇨🇿 Czech           |
+| 🇳🇱 Dutch           |
+| 🇬🇧 English         |
+| 🇫🇷 French          |
+| 🇩🇪 German          |
+| 🇳🇬 Hausa           |
+| 🇮🇳 Hindi           |
+| 🇮🇩 Indonesian      |
+| 🇮🇹 Italian         |
+| 🇯🇵 Japanese        |
+| 🇮🇩 Javanese        |
+| 🇰🇷 Korean          |
+| 🇮🇳 Marathi         |
+| 🇮🇷 Persian (Farsi) |
+| 🇵🇱 Polish          |
+| 🇵🇹 Portuguese      |
+| 🇵🇰 Punjabi         |
+| 🇷🇺 Russian         |
+| 🇪🇸 Spanish         |
+| 🇰🇪 Swahili         |
+| 🇮🇳 Tamil           |
+| 🇮🇳 Telugu          |
+| 🇹🇭 Thai            |
+| 🇹🇷 Turkish         |
+| 🇺🇦 Ukrainian       |
+| 🇵🇰 Urdu            |
+| 🇻🇳 Vietnamese      |
+
 ### Improving exercises' dataset
 
 We highly value contributions to the exercise dataset! To ensure data consistency please follow
