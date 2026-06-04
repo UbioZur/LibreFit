@@ -342,4 +342,7 @@
     <string name="companion_app_not_found">Begleit-App nicht gefunden</string>
     <string name="companion_signature_error">Signaturfehler der Begleitet–App</string>
     <string name="lets_build">Lass uns</string>
+    <string name="donators">Spender</string>
+    <string name="language_czech">Tschechisch</string>
+    <string name="language_spanish">Spanisch</string>
 </resources>
