@@ -345,4 +345,11 @@
     <string name="donators">Spender</string>
     <string name="language_czech">Tschechisch</string>
     <string name="language_spanish">Spanisch</string>
+    <string name="language_french">Französisch</string>
+    <string name="language_ukrainian">Ukrainisch</string>
+    <string name="weight">Gewicht</string>
+    <string name="equipment_pull_up_bar">Klimmzugstange</string>
+    <string name="equipment_rings">Ringe</string>
+    <string name="undo">rückgängig machen</string>
+    <string name="clear">Cache löschen</string>
 </resources>
