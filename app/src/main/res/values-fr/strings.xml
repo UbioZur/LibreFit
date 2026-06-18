@@ -142,4 +142,5 @@
     <string name="not_enough_data">Pas assez de données pour afficher ce graphique</string>
     <string name="tap_a_workout">Appuyez sur un entraînement pour le sélectionner</string>
     <string name="open_the_workout">Ouvrir l\'\'entraînement du</string>
+    <string name="start_adding_exercises">Commencez par ajouter un exercice à votre routine</string>
 </resources>
