@@ -145,4 +145,6 @@
     <string name="start_adding_exercises">Commencez par ajouter un exercice à votre routine</string>
     <string name="title">Titre</string>
     <string name="title_cannot_be_empty">Le titre ne peut pas être vide.</string>
+    <string name="edit_routine">Modifier la routine</string>
+    <string name="edit_workout">Modifier l’entrainement</string>
 </resources>
