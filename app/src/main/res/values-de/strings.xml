@@ -342,4 +342,23 @@
     <string name="companion_app_not_found">Begleit-App nicht gefunden</string>
     <string name="companion_signature_error">Signaturfehler der Begleitet–App</string>
     <string name="lets_build">Lass uns</string>
+    <string name="donators">Spender</string>
+    <string name="language_czech">Tschechisch</string>
+    <string name="language_spanish">Spanisch</string>
+    <string name="language_french">Französisch</string>
+    <string name="language_ukrainian">Ukrainisch</string>
+    <string name="weight">Gewicht</string>
+    <string name="equipment_pull_up_bar">Klimmzugstange</string>
+    <string name="equipment_rings">Ringe</string>
+    <string name="undo">rückgängig machen</string>
+    <string name="clear">Cache löschen</string>
+    <string name="use_scroll_wheel_for_input">Verwenden Sie das Auswahlrad zur Eingabe</string>
+    <string name="language_arabic">Arabisch</string>
+    <string name="language_indonesian">Indonesisch</string>
+    <string name="not_use_scroll_wheel_for_input_desc">Geben Sie Werte direkt mit der Tastatur ein, anstatt das Auswahlrad zu verwenden.</string>
+    <string name="dismiss_scroll_wheel_manually_desc">Das Auswahlrad muss manuell geschlossen werden.</string>
+    <string name="language_brazilian_portuguese">Portugiesisch (Brasilien)</string>
+    <string name="language_catalan">Katalanisch</string>
+    <string name="language_hindi">Hindi</string>
+    <string name="language_chinese_simplified">Chinesisch (vereinfacht)</string>
 </resources>
