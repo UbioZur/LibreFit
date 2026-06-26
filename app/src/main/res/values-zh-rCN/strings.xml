@@ -83,4 +83,5 @@
     <string name="equipment_dumbbell">哑铃</string>
     <string name="equipment_kettlebells">壶铃</string>
     <string name="app_works_without_permission">在未授权该权限的情况下，本应用仍能正常工作。</string>
+    <string name="app_name">LibrFit</string>
 </resources>
