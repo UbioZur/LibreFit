@@ -14,7 +14,7 @@
     <string name="add_exercise">Übung hinzufügen</string>
     <string name="more_options">Weitere Optionen</string>
     <string name="library">Sammlung</string>
-    <string name="open">Offen</string>
+    <string name="open">Öffnen</string>
     <string name="copy">Kopieren</string>
     <string name="support_project">Unterstütze das Projekt</string>
     <string name="donate">Spenden</string>
@@ -361,4 +361,5 @@
     <string name="language_catalan">Katalanisch</string>
     <string name="language_hindi">Hindi</string>
     <string name="language_chinese_simplified">Chinesisch (vereinfacht)</string>
+    <string name="reorder">Reihenfolge ändern</string>
 </resources>
