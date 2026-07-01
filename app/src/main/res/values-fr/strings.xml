@@ -150,4 +150,5 @@
     <string name="reps">Répétitions</string>
     <string name="reorder">Réorganiser</string>
     <string name="restart_app">Redémarrer</string>
+    <string name="load">Charge</string>
 </resources>
