@@ -94,4 +94,6 @@
     <string name="select_date">选择日期</string>
     <string name="create_exercise">创建训练动作</string>
     <string name="title">标题</string>
+    <string name="lets_build_it_together">共同构建社区</string>
+    <string name="tutorial_desc">了解如何使用训练计划并追踪训练。</string>
 </resources>
