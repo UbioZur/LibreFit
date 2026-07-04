@@ -36,7 +36,7 @@
     <string name="lets_build_it_together">Lasst uns gemeinsam bauen</string>
     <string name="tutorial_desc">Erfahre, wie du Trainingspläne erstellst und dein Training nachverfolgst.</string>
     <string name="overview">Übersicht</string>
-    <string name="statistics">Statistik</string>
+    <string name="statistics">Statistiken</string>
     <string name="volume">Gesamtgewicht</string>
     <string name="total_sets">Satzanzahl</string>
     <string name="completed_sets">Vollständige Sätze</string>
@@ -224,7 +224,7 @@
     <string name="appearance">Darstellung</string>
     <string name="follow_system">System</string>
     <string name="theme_dark">Dunkel</string>
-    <string name="theme">Aussehen</string>
+    <string name="theme">Design</string>
     <string name="theme_light">Hell</string>
     <string name="material_you">Material You</string>
     <string name="dynamic_color_disabled">Dynamische Farben deaktiviert</string>
@@ -332,7 +332,7 @@
     <string name="session_reps">Einheitswiederholungen</string>
     <string name="most_reps">Meisten Wiederholungen</string>
     <string name="session_volume">Einheitsvolumen</string>
-    <string name="one_rep_max">Maximale Wiederholungen</string>
+    <string name="one_rep_max">Maximalkraft</string>
     <string name="language_german">Deutsch</string>
     <string name="language_dutch">Niederländisch</string>
     <string name="companion_app_desc">Einfach die Begleit-App installieren und auf die Schaltfläche unten klicken.</string>
@@ -364,4 +364,10 @@
     <string name="reorder">Reihenfolge ändern</string>
     <string name="use_scroll_wheel_for_input_desc">Nutzen Sie das Auswahlrad, um Werte und Zeit auszuwählen.</string>
     <string name="verify_companion_or_code">Überprüfen Sie die Begleit-App oder den Code.</string>
+    <string name="dismiss_scroll_wheel_automatically">Auswahlrad automatisch ausblenden</string>
+    <string name="dismiss_scroll_wheel_automatically_desc">Das Auswahlrad wird automatisch ausgeblendet.</string>
+    <string name="language_polish">Polnisch</string>
+    <string name="language_urdu">Urdu</string>
+    <string name="language_russian">Russisch</string>
+    <string name="language_korean">Koreanisch</string>
 </resources>
