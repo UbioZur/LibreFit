@@ -363,4 +363,5 @@
     <string name="language_chinese_simplified">Chinesisch (vereinfacht)</string>
     <string name="reorder">Reihenfolge ändern</string>
     <string name="use_scroll_wheel_for_input_desc">Nutzen Sie das Auswahlrad, um Werte und Zeit auszuwählen.</string>
+    <string name="verify_companion_or_code">Überprüfen Sie die Begleit-App oder den Code.</string>
 </resources>
