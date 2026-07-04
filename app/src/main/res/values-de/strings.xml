@@ -88,7 +88,7 @@
     <string name="start_completing_workout">Beginne damit, ein Training abzuschließen</string>
     <string name="delete_routine_question">Trainingsplan löschen?</string>
     <string name="quit_routine_creation_question">Traininsplanerstellung abbrechen?</string>
-    <string name="discard_running_workout_and_select_routine_text">Um diesen Trainingsplan zu starten, muss das aktuelle, noch nicht gespeicherte und laufende Training beendet werden. Möchten Sie es wirklich verwerfen? Diese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="discard_running_workout_and_select_routine_text">Um diesen Trainingsplan zu starten, muss das aktuelle, noch nicht gespeicherte und laufende Training beendet werden. Möchtest Du es wirklich beenden? Diese Aktion kann nicht rückgängig gemacht werden.</string>
     <string name="delete_routine_text">Möchtest du diesen Trainingsplan wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden</string>
     <string name="do_not_show_again">Nicht erneut anzeigen</string>
     <string name="tut_complete_workout_6">Herzlichen Glückwunsch, du hast dein erstes Training absolviert! In deinem Profil kannst du alle deine bisherigen Trainingseinheiten einsehen.</string>
