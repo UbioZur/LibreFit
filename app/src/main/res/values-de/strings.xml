@@ -335,13 +335,13 @@
     <string name="one_rep_max">Maximalkraft</string>
     <string name="language_german">Deutsch</string>
     <string name="language_dutch">Niederländisch</string>
-    <string name="companion_app_desc">Einfach die Begleit-App installieren und auf die Schaltfläche unten klicken.</string>
-    <string name="verify_companion_app">Begleit-App verifizieren</string>
+    <string name="companion_app_desc">Installieren Sie einfach die Begleit-App und klicken Sie auf die Schaltfläche unten.</string>
+    <string name="verify_companion_app">Verifizieren Sie die Begleit-App</string>
     <string name="valid_companion_app_signature">Gültige Begleit-App</string>
     <string name="invalid_companion_app_signature">Ungültige Begleit-App</string>
     <string name="companion_app_not_found">Begleit-App nicht gefunden</string>
     <string name="companion_signature_error">Signaturfehler der Begleitet–App</string>
-    <string name="lets_build">Lass uns</string>
+    <string name="lets_build">Lass uns bauen</string>
     <string name="donators">Spender</string>
     <string name="language_czech">Tschechisch</string>
     <string name="language_spanish">Spanisch</string>
