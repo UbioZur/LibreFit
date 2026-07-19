@@ -4944,6 +4944,36 @@
     "id": "Concentration_Curls"
   },
   {
+    "name": "Copenhagen Side Plank",
+    "force": "static",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "primaryMuscles": [
+      "adductors"
+    ],
+    "secondaryMuscles": [
+      "abdominals",
+      "glutes",
+      "shoulders"
+    ],
+    "instructions": [
+      "Lie on your side next to a bench or sturdy elevated surface.",
+      "Place your top leg on the bench so that your ankle or knee is supported, depending on your strength and experience.",
+      "Position your lower forearm directly beneath your shoulder.",
+      "Lift your hips off the ground, forming a straight line from your head to your supporting foot.",
+      "Allow your bottom leg to hang beneath the bench or press it lightly against the underside of the top leg for additional support.",
+      "Hold the position while keeping your core engaged and your hips level.",
+      "Lower under control and repeat on the opposite side."
+    ],
+    "category": "strength",
+    "images": [
+      "Copenhagen_Side_Plank/0.webp",
+      "Copenhagen_Side_Plank/1.webp"
+    ],
+    "id": "Copenhagen_Side_Plank"
+  },
+  {
     "name": "Cross-Body Crunch",
     "force": "pull",
     "level": "beginner",
