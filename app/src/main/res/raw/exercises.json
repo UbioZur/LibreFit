@@ -8998,6 +8998,30 @@
     "id": "Hip_Lift_with_Band"
   },
   {
+    "name": "Hollow Hold",
+    "force": "static",
+    "level": "intermediate",
+    "mechanic": "isolation",
+    "equipment": null,
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "Lie on your back with your arms extended overhead and your legs straight.",
+      "Press your lower back firmly into the floor by bracing your core and tilting your pelvis slightly backward.",
+      "Lift your shoulders, arms, and legs a few inches off the ground while maintaining the lower back contact with the floor.",
+      "Keep your body in a shallow 'banana' shape without allowing your lower back to arch.",
+      "Hold the position for the desired duration while breathing steadily.",
+      "Lower your arms and legs under control to finish the exercise."
+    ],
+    "category": "strength",
+    "images": [
+      "Hollow_Hold/0.webp"
+    ],
+    "id": "Hollow_Hold"
+  },
+  {
     "name": "Horizontal Row",
     "force": "pull",
     "level": "beginner",
