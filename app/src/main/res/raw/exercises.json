@@ -19462,6 +19462,35 @@
     "id": "Smith_Single-Leg_Split_Squat"
   },
   {
+    "name": "Snap Down",
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": null,
+    "primaryMuscles": [
+      "quadriceps",
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "calves",
+      "abdominals"
+    ],
+    "instructions": [
+      "Stand tall with your feet about hip-width apart and your arms overhead.",
+      "Quickly drive your arms down while simultaneously dropping into a quarter squat.",
+      "Land softly on the balls of your feet before settling your heels to the ground.",
+      "Absorb the landing by bending your hips and knees while keeping your chest up and your knees aligned over your toes.",
+      "Pause briefly in the athletic position, then stand back up and repeat."
+    ],
+    "category": "plyometrics",
+    "images": [
+      "Snap_Down/0.webp",
+      "Snap_Down/1.webp"
+    ],
+    "id": "Snap_Down"
+  },
+  {
     "name": "Snatch",
     "force": "pull",
     "level": "intermediate",
