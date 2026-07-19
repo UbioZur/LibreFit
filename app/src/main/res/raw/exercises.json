@@ -22088,6 +22088,30 @@
     "id": "Thigh_Adductor"
   },
   {
+    "name": "Tibialis Raise",
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": null,
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "Stand with your back against a wall and your feet positioned about 20–30 cm (8–12 inches) in front of you.",
+      "Lean into the wall for support while keeping your heels firmly on the ground.",
+      "Lift your toes as high as possible by dorsiflexing your ankles, keeping your heels in contact with the floor.",
+      "Pause briefly at the top of the movement, feeling the muscles along the front of your lower legs contract.",
+      "Lower your toes back to the starting position under control and repeat."
+    ],
+    "category": "strength",
+    "images": [
+      "Tibialis_Raise/0.webp",
+      "Tibialis_Raise/1.webp"
+    ],
+    "id": "Tibialis_Raise"
+  },
+  {
     "name": "Tire Flip",
     "force": "pull",
     "level": "intermediate",
