@@ -23744,5 +23744,36 @@
       "Zottman_Preacher_Curl/1.webp"
     ],
     "id": "Zottman_Preacher_Curl"
-  }
+  },
+  {
+  "name": "Cossack Squat",
+  "force": "push",
+  "level": "intermediate",
+  "mechanic": "compound",
+  "equipment": null,
+  "primaryMuscles": [
+    "quadriceps",
+    "adductors"
+  ],
+  "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "calves",
+    "abdominals"
+  ],
+  "instructions": [
+    "Stand with your feet wider than shoulder-width apart and your toes pointed slightly outward.",
+    "Shift your weight onto one leg as you bend that knee and lower your hips toward the ground.",
+    "Keep your opposite leg straight with the heel on the floor and the toes pointing upward if your mobility allows.",
+    "Lower until you feel a comfortable stretch in the inner thigh of the straight leg while keeping your chest upright.",
+    "Push through the foot of the bent leg to return to the starting position.",
+    "Repeat on the opposite side, alternating for the desired number of repetitions."
+  ],
+  "category": "strength",
+  "images": [
+    "Cossack_Squat/0.webp",
+    "Cossack_Squat/1.webp"
+  ],
+  "id": "Cossack_Squat"
+}
 ]
