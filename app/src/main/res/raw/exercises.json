@@ -21742,6 +21742,34 @@
     "id": "Stride_Jump_Crossover"
   },
   {
+    "name": "Suitcase Carry",
+    "force": "static",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "dumbbell",
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": [
+      "forearms",
+      "traps",
+      "shoulders",
+      "glutes"
+    ],
+    "instructions": [
+      "Stand upright while holding a dumbbell or kettlebell in one hand at your side.",
+      "Brace your core and keep your shoulders level, resisting the urge to lean toward the weight.",
+      "Walk forward with controlled, steady steps while maintaining an upright posture.",
+      "Keep the weight close to your body and avoid shrugging your shoulder.",
+      "Continue for the desired distance or time, then switch hands and repeat."
+    ],
+    "category": "strongman",
+    "images": [
+      "Suitcase_Carry/0.webp"
+    ],
+    "id": "Suitcase_Carry"
+  },
+  {
     "name": "Sumo Deadlift",
     "force": "pull",
     "level": "intermediate",
