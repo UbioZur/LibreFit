@@ -2471,6 +2471,35 @@
     "id": "Bicycling_Stationary"
   },
   {
+    "name": "Bird Dog",
+    "force": "static",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": null,
+    "primaryMuscles": [
+      "abdominals",
+      "lower back"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "shoulders"
+    ],
+    "instructions": [
+      "Start on your hands and knees with your hands directly under your shoulders and your knees under your hips.",
+      "Brace your core and keep your spine in a neutral position.",
+      "Simultaneously extend one arm forward and the opposite leg backward until both are parallel to the floor.",
+      "Keep your hips level and avoid arching or rotating your lower back.",
+      "Pause briefly while maintaining balance and full-body tension.",
+      "Return to the starting position under control and repeat on the opposite side."
+    ],
+    "category": "strength",
+    "images": [
+      "Bird_Dog/0.webp",
+      "Bird_Dog/1.webp"
+    ],
+    "id": "Bird_Dog"
+  },
+  {
     "name": "Board Press",
     "force": "push",
     "level": "intermediate",
