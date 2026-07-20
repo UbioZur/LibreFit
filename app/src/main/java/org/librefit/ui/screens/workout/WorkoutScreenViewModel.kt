@@ -586,4 +586,6 @@ class WorkoutScreenViewModel @Inject constructor(
     val useScrollWheelForInput = userPreferences.useScrollWheelForInput
 
     val dismissScrollWheelInputAutomatically = userPreferences.dismissScrollWheelInputAutomatically
+
+    val displayExercisesImages = userPreferences.showExercisesImages
 }

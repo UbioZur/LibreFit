@@ -84,6 +84,8 @@ fun SharedTransitionScope.InfoWorkoutScreen(
     viewModel: InfoWorkoutScreenViewModel = hiltViewModel()
 ) {
 
+    val showExercisesImages by viewModel.showExercisesImages.collectAsStateWithLifecycle()
+
     val points by viewModel.points.collectAsStateWithLifecycle()
 
     val workout by viewModel.workout.collectAsStateWithLifecycle()
@@ -109,6 +111,7 @@ fun SharedTransitionScope.InfoWorkoutScreen(
         workoutChart = workoutChartMode,
         exercises = exercises,
         points = points,
+        showExercisesImages = showExercisesImages,
         deleteWorkout = viewModel::deleteWorkout,
         updateChartMode = viewModel::updateChartMode,
         detachWorkoutFromRoutine = viewModel::detachWorkoutFromRoutine,
@@ -129,6 +132,7 @@ private fun SharedTransitionScope.InfoWorkoutScreenContent(
     workoutChart: WorkoutChart,
     exercises: List<UiExerciseWithSets>,
     points: List<Point>,
+    showExercisesImages: Boolean?,
     deleteWorkout: () -> Unit,
     detachWorkoutFromRoutine: () -> Unit,
     updateChartMode: (WorkoutChart) -> Unit
@@ -406,6 +410,7 @@ private fun SharedTransitionScope.InfoWorkoutScreenContent(
                 ExerciseCardSmall(
                     exerciseWithSets = e,
                     isRoutine = isRoutine,
+                    showExercisesImages = showExercisesImages,
                     animatedVisibilityScope = animatedVisibilityScope
                 ) {
                     navController.navigate(
@@ -438,6 +443,7 @@ private fun InfoRoutineScreenPreview() {
                     workoutDate = Formatter.getFullDateFromLocalDate(LocalDateTime.now()),
                     volumeExercises = Weight.kilograms(100.0),
                     workoutChart = WorkoutChart.REPS,
+                    showExercisesImages = null,
                     exercises = listOf(
                         UiExerciseWithSets(
                             exerciseDC = UiExerciseDC(

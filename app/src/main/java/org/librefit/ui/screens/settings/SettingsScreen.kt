@@ -32,6 +32,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -56,6 +57,7 @@ import org.librefit.nav.Route
 import org.librefit.ui.components.HeadlineText
 import org.librefit.ui.components.LibreFitLazyColumn
 import org.librefit.ui.components.LibreFitScaffold
+import org.librefit.ui.components.dialogs.ConfirmDialog
 import org.librefit.ui.components.dialogs.PreferenceDialog
 import org.librefit.ui.theme.LibreFitTheme
 import org.librefit.util.Formatter
@@ -89,6 +91,8 @@ fun SettingsScreen(
 
     val useScrollWheelForInput by viewModel.useScrollWheelForInput.collectAsStateWithLifecycle()
 
+    val showExercisesImages by viewModel.showExercisesImages.collectAsStateWithLifecycle()
+
     val dismissScrollWheelInputAutomatically by viewModel.dismissScrollWheelInputAutomatically.collectAsStateWithLifecycle()
 
     preferences?.let {
@@ -102,6 +106,26 @@ fun SettingsScreen(
 
     }
 
+
+    var showConfirmDialogDisplayExerciseImages by rememberSaveable { mutableStateOf(false) }
+
+
+    if (showConfirmDialogDisplayExerciseImages) {
+        ConfirmDialog(
+            title = stringResource(R.string.show_images),
+            text = stringResource(R.string.ai_images_warning),
+            confirmText = stringResource(R.string.show),
+            onConfirm = {
+                viewModel.saveShowExercisesImages(true)
+
+                showConfirmDialogDisplayExerciseImages = false
+            },
+            onDismiss = {
+                showConfirmDialogDisplayExerciseImages = false
+            }
+        )
+    }
+
     SettingsScreenContent(
         navController = navController,
         selectedTheme = selectedTheme,
@@ -111,6 +135,7 @@ fun SettingsScreen(
         restTimerSoundOn = restTimerSoundOn,
         isSupporter = isSupporter,
         useScrollWheelForInput = useScrollWheelForInput,
+        showExercisesImages = showExercisesImages,
         isWorkoutHeaderSticky = isWorkoutHeaderSticky,
         dismissScrollWheelInputAutomatically = dismissScrollWheelInputAutomatically,
         unitSystem = unitSystem,
@@ -120,6 +145,10 @@ fun SettingsScreen(
         onRestTimerSoundOnChange = viewModel::saveRestTimerSoundOn,
         onIsWorkoutHeaderStickyChange = viewModel::saveIsWorkoutHeaderSticky,
         onUseScrollWheelForInputChange = viewModel::saveUseScrollWheelForInput,
+        onShowExercisesImagesChange = viewModel::saveShowExercisesImages,
+        showConfirmDialogShowExerciseImages = {
+            showConfirmDialogDisplayExerciseImages = true
+        },
         onDismissScrollWhellInputAutomaticallyChange = viewModel::saveDismissScrollWheelInputAutomatically
     )
 }
@@ -136,6 +165,7 @@ private fun SettingsScreenContent(
     isSupporter: Boolean,
     isWorkoutHeaderSticky: Boolean,
     useScrollWheelForInput: Boolean,
+    showExercisesImages: Boolean?,
     dismissScrollWheelInputAutomatically: Boolean,
     unitSystem: UnitSystem,
     updatePreferences: (List<DialogPreference>) -> Unit,
@@ -144,6 +174,8 @@ private fun SettingsScreenContent(
     onRestTimerSoundOnChange: (Boolean) -> Unit,
     onIsWorkoutHeaderStickyChange: (Boolean) -> Unit,
     onUseScrollWheelForInputChange: (Boolean) -> Unit,
+    onShowExercisesImagesChange: (Boolean) -> Unit,
+    showConfirmDialogShowExerciseImages: () -> Unit,
     onDismissScrollWhellInputAutomaticallyChange: (Boolean) -> Unit,
 ) {
     LibreFitScaffold(
@@ -249,6 +281,22 @@ private fun SettingsScreenContent(
 
             item {
                 SettingItem(
+                    isChecked = showExercisesImages == true,
+                    onClick = {
+                        if (showExercisesImages != null) {
+                            onShowExercisesImagesChange(!showExercisesImages)
+                        } else {
+                            showConfirmDialogShowExerciseImages()
+                        }
+                    },
+                    icon = painterResource(if (showExercisesImages == true) R.drawable.ic_image else R.drawable.ic_hide_image),
+                    settingName = stringResource(R.string.show_images),
+                    settingDesc = stringResource(if (showExercisesImages == true) R.string.show_images_desc else R.string.hide_images_desc)
+                )
+            }
+
+            item {
+                SettingItem(
                     isChecked = useScrollWheelForInput,
                     onClick = { onUseScrollWheelForInputChange(!useScrollWheelForInput) },
                     icon = painterResource(R.drawable.ic_scroll_vertical),
@@ -347,7 +395,9 @@ fun SettingsScreenPreview() {
     var keepWorkoutScreenOn by remember { mutableStateOf(Random.nextBoolean()) }
     var restTimerSoundOn by remember { mutableStateOf(Random.nextBoolean()) }
     var isWorkoutHeaderSticky by remember { mutableStateOf(Random.nextBoolean()) }
+    var dismissScrollWheelInputAutomatically by remember { mutableStateOf(Random.nextBoolean()) }
     var useScrollWheelForInput by remember { mutableStateOf(Random.nextBoolean()) }
+    var displayExercisesImages by remember { mutableStateOf(Random.nextBoolean()) }
 
     val theme = ThemeMode.entries.random()
 
@@ -363,14 +413,19 @@ fun SettingsScreenPreview() {
             isSupporter = Random.nextBoolean(),
             isWorkoutHeaderSticky = isWorkoutHeaderSticky,
             useScrollWheelForInput = useScrollWheelForInput,
-            dismissScrollWheelInputAutomatically = Random.nextBoolean(),
+            showExercisesImages = displayExercisesImages,
+            dismissScrollWheelInputAutomatically = dismissScrollWheelInputAutomatically,
             unitSystem = UnitSystem.entries.random(),
             onMaterialModeChange = { materialModeOn = it },
             onKeepWorkoutScreenOnChange = { keepWorkoutScreenOn = it },
             onRestTimerSoundOnChange = { restTimerSoundOn = it },
             onIsWorkoutHeaderStickyChange = { isWorkoutHeaderSticky = it },
             onUseScrollWheelForInputChange = { useScrollWheelForInput = it },
-            onDismissScrollWhellInputAutomaticallyChange = {}
+            onShowExercisesImagesChange = { displayExercisesImages = it },
+            showConfirmDialogShowExerciseImages = {},
+            onDismissScrollWhellInputAutomaticallyChange = {
+                dismissScrollWheelInputAutomatically = it
+            }
         )
     }
 }
